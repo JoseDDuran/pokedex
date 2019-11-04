@@ -1086,7 +1086,7 @@ const survey3 = {
                   "questionStyleId": 1,
                   "surveyQuestionOption": [],
                   "showTitle": false,
-                  "showButton": false
+                  "showButton": true
               },
               {
                   "id": 22,
