@@ -1061,7 +1061,7 @@ const survey2 = {
     }
 };
 
-const survey3 = {
+const survey3 ={
   "surveys": [
       {
           "id": 4,
@@ -1082,7 +1082,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "Hola",
                   "description": "Queremos saber tu opinión acerca de tu experiencia en Real Plaza",
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 1,
                   "surveyQuestionOption": [],
                   "showTitle": false,
@@ -1101,7 +1101,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "¿Cómo fue tu experiencia en Real Plaza Puruchuco?",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 2,
                   "surveyQuestionOption": [
                       {
@@ -1111,7 +1111,7 @@ const survey3 = {
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 42,
-                          "required": false,
+                          "required": true,
                           "label": "Mal",
                           "value": "0"
                       },
@@ -1122,7 +1122,7 @@ const survey3 = {
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 43,
-                          "required": false,
+                          "required": true,
                           "label": "No muy bien",
                           "value": "1"
                       },
@@ -1133,7 +1133,7 @@ const survey3 = {
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 44,
-                          "required": false,
+                          "required": true,
                           "label": "Promedio",
                           "value": "2"
                       },
@@ -1144,7 +1144,7 @@ const survey3 = {
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 45,
-                          "required": false,
+                          "required": true,
                           "label": "Bien",
                           "value": "3"
                       },
@@ -1155,13 +1155,13 @@ const survey3 = {
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 46,
-                          "required": false,
+                          "required": true,
                           "label": "Muy bien",
                           "value": "4"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 23,
@@ -1176,67 +1176,67 @@ const survey3 = {
                   "mainImage": null,
                   "name": "¿Cómo fue tu experiencia en Real Plaza Puruchuco?",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 4,
                   "surveyQuestionOption": [
                       {
                           "id": 40,
                           "nextSurveyQuestionId": 24,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451921/NPS2/img_cara_mal.png",
                           "surveyQuestionId": 23,
                           "viewLabel": false,
                           "optionId": 1,
-                          "required": false,
+                          "required": true,
                           "label": "Mal",
                           "value": "0"
                       },
                       {
                           "id": 41,
                           "nextSurveyQuestionId": 25,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_promedio.png",
                           "surveyQuestionId": 23,
                           "viewLabel": false,
                           "optionId": 2,
-                          "required": false,
+                          "required": true,
                           "label": "No muy bien",
                           "value": "1"
                       },
                       {
                           "id": 42,
                           "nextSurveyQuestionId": 25,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_excelente.png",
                           "surveyQuestionId": 23,
                           "viewLabel": false,
                           "optionId": 3,
-                          "required": false,
+                          "required": true,
                           "label": "Promedio",
                           "value": "2"
                       },
                       {
                           "id": 43,
                           "nextSurveyQuestionId": 25,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_bien.png",
                           "surveyQuestionId": 23,
                           "viewLabel": false,
                           "optionId": 4,
-                          "required": false,
+                          "required": true,
                           "label": "Bien",
                           "value": "3"
                       },
                       {
                           "id": 44,
                           "nextSurveyQuestionId": 25,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_bien.png",
                           "surveyQuestionId": 23,
                           "viewLabel": false,
                           "optionId": 5,
-                          "required": false,
+                          "required": true,
                           "label": "¡Muy bien!",
                           "value": "4"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 24,
@@ -1251,7 +1251,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "Por favor califica nuestros servicios",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 3,
                   "surveyQuestionOption": [
                       {
@@ -1261,7 +1261,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 21,
-                          "required": false,
+                          "required": true,
                           "label": "0",
                           "value": "0"
                       },
@@ -1272,7 +1272,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 22,
-                          "required": false,
+                          "required": true,
                           "label": "1",
                           "value": "1"
                       },
@@ -1283,7 +1283,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 23,
-                          "required": false,
+                          "required": true,
                           "label": "2",
                           "value": "2"
                       },
@@ -1294,7 +1294,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 24,
-                          "required": false,
+                          "required": true,
                           "label": "3",
                           "value": "3"
                       },
@@ -1305,7 +1305,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 25,
-                          "required": false,
+                          "required": true,
                           "label": "4",
                           "value": "4"
                       },
@@ -1316,7 +1316,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 26,
-                          "required": false,
+                          "required": true,
                           "label": "5",
                           "value": "5"
                       },
@@ -1327,7 +1327,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 27,
-                          "required": false,
+                          "required": true,
                           "label": "6",
                           "value": "6"
                       },
@@ -1338,7 +1338,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 28,
-                          "required": false,
+                          "required": true,
                           "label": "7",
                           "value": "7"
                       },
@@ -1349,7 +1349,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 29,
-                          "required": false,
+                          "required": true,
                           "label": "8",
                           "value": "8"
                       },
@@ -1360,7 +1360,7 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 30,
-                          "required": false,
+                          "required": true,
                           "label": "9",
                           "value": "9"
                       },
@@ -1371,13 +1371,13 @@ const survey3 = {
                           "surveyQuestionId": 24,
                           "viewLabel": false,
                           "optionId": 31,
-                          "required": false,
+                          "required": true,
                           "label": "10",
                           "value": "10"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 25,
@@ -1392,7 +1392,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "Por favor, califica nuestros servicios",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 6,
                   "surveyQuestionOption": [
                       {
@@ -1402,7 +1402,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 58,
-                          "required": false,
+                          "required": true,
                           "label": "0",
                           "value": "0"
                       },
@@ -1413,7 +1413,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 59,
-                          "required": false,
+                          "required": true,
                           "label": "1",
                           "value": "1"
                       },
@@ -1424,7 +1424,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 60,
-                          "required": false,
+                          "required": true,
                           "label": "2",
                           "value": "2"
                       },
@@ -1435,7 +1435,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 61,
-                          "required": false,
+                          "required": true,
                           "label": "3",
                           "value": "3"
                       },
@@ -1446,7 +1446,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 62,
-                          "required": false,
+                          "required": true,
                           "label": "4",
                           "value": "4"
                       },
@@ -1457,7 +1457,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 63,
-                          "required": false,
+                          "required": true,
                           "label": "5",
                           "value": "5"
                       },
@@ -1468,7 +1468,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 64,
-                          "required": false,
+                          "required": true,
                           "label": "6",
                           "value": "6"
                       },
@@ -1479,7 +1479,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 65,
-                          "required": false,
+                          "required": true,
                           "label": "7",
                           "value": "7"
                       },
@@ -1490,7 +1490,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 66,
-                          "required": false,
+                          "required": true,
                           "label": "8",
                           "value": "8"
                       },
@@ -1501,7 +1501,7 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 67,
-                          "required": false,
+                          "required": true,
                           "label": "9",
                           "value": "9"
                       },
@@ -1512,13 +1512,13 @@ const survey3 = {
                           "surveyQuestionId": 25,
                           "viewLabel": false,
                           "optionId": 68,
-                          "required": false,
+                          "required": true,
                           "label": "10",
                           "value": "10"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 26,
@@ -1533,111 +1533,111 @@ const survey3 = {
                   "mainImage": null,
                   "name": "¿Qué te gustó más de tu experiencia en Real Plaza?",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 5,
                   "surveyQuestionOption": [
                       {
                           "id": 67,
                           "nextSurveyQuestionId": 27,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451681/NPS2/img_atencion.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 6,
-                          "required": false,
+                          "required": true,
                           "label": "Ambiente",
                           "value": null
                       },
                       {
                           "id": 68,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451680/NPS2/img_ban%CC%83osldpi.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 7,
-                          "required": false,
+                          "required": true,
                           "label": "Accesibilidad",
                           "value": null
                       },
                       {
                           "id": 69,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451680/NPS2/img_altos.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 8,
-                          "required": false,
+                          "required": true,
                           "label": "Atención",
                           "value": null
                       },
                       {
                           "id": 70,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451680/NPS2/img_ambiente.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 9,
-                          "required": false,
+                          "required": true,
                           "label": "Entretenimiento",
                           "value": null
                       },
                       {
                           "id": 71,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451680/NPS2/img_accesibilidad.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 10,
-                          "required": false,
+                          "required": true,
                           "label": "Limpieza",
                           "value": null
                       },
                       {
                           "id": 72,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451680/NPS2/img_accesomall.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 11,
-                          "required": false,
+                          "required": true,
                           "label": "Precios",
                           "value": null
                       },
                       {
                           "id": 73,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451877/NPS2/img_circulacionmall.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 12,
-                          "required": false,
+                          "required": true,
                           "label": "Servicios",
                           "value": null
                       },
                       {
                           "id": 74,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451877/NPS2/img_cine.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 13,
-                          "required": false,
+                          "required": true,
                           "label": "Seguridad",
                           "value": null
                       },
                       {
                           "id": 75,
                           "nextSurveyQuestionId": 28,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451872/NPS2/img_centroatencion.png",
                           "surveyQuestionId": 26,
                           "viewLabel": false,
                           "optionId": 14,
-                          "required": false,
+                          "required": true,
                           "label": "Tiendas & locales",
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 27,
@@ -1652,7 +1652,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "¿Deseas enviarnos un comentario?",
                   "description": "Escribe un comentario...",
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 11,
                   "surveyQuestionOption": [
                       {
@@ -1662,7 +1662,7 @@ const survey3 = {
                           "surveyQuestionId": 27,
                           "viewLabel": false,
                           "optionId": 69,
-                          "required": false,
+                          "required": true,
                           "label": "Enviar",
                           "value": null
                       },
@@ -1673,13 +1673,13 @@ const survey3 = {
                           "surveyQuestionId": 27,
                           "viewLabel": false,
                           "optionId": 70,
-                          "required": false,
+                          "required": true,
                           "label": "Omitir",
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 28,
@@ -1694,7 +1694,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "¡Participa por un kit de la felicidad!",
                   "description": "Completa tus datos y participa por un kit de la felicidad que Real Plaza tiene para ti.",
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 14,
                   "surveyQuestionOption": [
                       {
@@ -1704,7 +1704,7 @@ const survey3 = {
                           "surveyQuestionId": 28,
                           "viewLabel": false,
                           "optionId": 40,
-                          "required": false,
+                          "required": true,
                           "label": "Omitir",
                           "value": null
                       },
@@ -1715,13 +1715,13 @@ const survey3 = {
                           "surveyQuestionId": 28,
                           "viewLabel": false,
                           "optionId": 41,
-                          "required": false,
+                          "required": true,
                           "label": "Participar",
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 29,
@@ -1736,7 +1736,7 @@ const survey3 = {
                   "mainImage": null,
                   "name": "Limpieza",
                   "description": "Especifica por favor",
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 7,
                   "surveyQuestionOption": [
                       {
@@ -1746,7 +1746,7 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 15,
-                          "required": false,
+                          "required": true,
                           "label": "Baños",
                           "value": null
                       },
@@ -1757,7 +1757,7 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 16,
-                          "required": false,
+                          "required": true,
                           "label": "Parking",
                           "value": null
                       },
@@ -1768,7 +1768,7 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 17,
-                          "required": false,
+                          "required": true,
                           "label": "Pasillos",
                           "value": null
                       },
@@ -1779,7 +1779,7 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 18,
-                          "required": false,
+                          "required": true,
                           "label": "Locales",
                           "value": null
                       },
@@ -1790,7 +1790,7 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 19,
-                          "required": false,
+                          "required": true,
                           "label": "Patio de comidas",
                           "value": null
                       },
@@ -1801,12 +1801,12 @@ const survey3 = {
                           "surveyQuestionId": 29,
                           "viewLabel": false,
                           "optionId": 20,
-                          "required": false,
+                          "required": true,
                           "label": "Ingreso al mall(exteriores)",
                           "value": null
                       }
                   ],
-                  "showTitle": false,
+                  "showTitle": true,
                   "showButton": true
               },
               {
@@ -1822,11 +1822,11 @@ const survey3 = {
                   "mainImage": null,
                   "name": "No es grato saber que eres feliz en Real Plaza.",
                   "description": "Gracias por tu opinión, participa por un kit de la felicidad.",
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 8,
                   "surveyQuestionOption": [],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 31,
@@ -1841,10 +1841,10 @@ const survey3 = {
                   "mainImage": null,
                   "name": "Tus datos han sido enviados exitosamente ",
                   "description": null,
-                  "active": false,
+                  "active": true,
                   "questionStyleId": 10,
                   "surveyQuestionOption": [],
-                  "showTitle": false,
+                  "showTitle": true,
                   "showButton": false
               }
           ]
