@@ -1807,7 +1807,7 @@ const survey3 = {
                       }
                   ],
                   "showTitle": false,
-                  "showButton": false
+                  "showButton": true
               },
               {
                   "id": 30,
