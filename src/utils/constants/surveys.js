@@ -1085,7 +1085,7 @@ const survey3 = {
                   "active": true,
                   "questionStyleId": 1,
                   "surveyQuestionOption": [],
-                  "showTitle": false,
+                  "showTitle": true,
                   "showButton": true
               },
               {
@@ -1160,8 +1160,8 @@ const survey3 = {
                           "value": "4"
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 23,
@@ -1235,8 +1235,8 @@ const survey3 = {
                           "value": "4"
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 24,
@@ -1376,8 +1376,8 @@ const survey3 = {
                           "value": "10"
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 25,
@@ -1517,8 +1517,8 @@ const survey3 = {
                           "value": "10"
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 26,
@@ -1636,8 +1636,8 @@ const survey3 = {
                           "value": null
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 27,
@@ -1678,8 +1678,8 @@ const survey3 = {
                           "value": null
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 28,
@@ -1720,8 +1720,8 @@ const survey3 = {
                           "value": null
                       }
                   ],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 29,
@@ -1825,8 +1825,8 @@ const survey3 = {
                   "active": true,
                   "questionStyleId": 8,
                   "surveyQuestionOption": [],
-                  "showTitle": true,
-                  "showButton": true
+                  "showTitle": false,
+                  "showButton": false
               },
               {
                   "id": 31,
@@ -1844,7 +1844,7 @@ const survey3 = {
                   "active": true,
                   "questionStyleId": 10,
                   "surveyQuestionOption": [],
-                  "showTitle": true,
+                  "showTitle": false,
                   "showButton": false
               }
           ]
