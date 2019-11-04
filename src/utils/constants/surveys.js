@@ -1061,7 +1061,7 @@ const survey2 = {
     }
 };
 
-const survey3 ={
+const survey3 = {
   "surveys": [
       {
           "id": 4,
@@ -1086,7 +1086,7 @@ const survey3 ={
                   "questionStyleId": 1,
                   "surveyQuestionOption": [],
                   "showTitle": false,
-                  "showButton": false
+                  "showButton": true
               },
               {
                   "id": 22,
@@ -1107,7 +1107,7 @@ const survey3 ={
                       {
                           "id": 35,
                           "nextSurveyQuestionId": 23,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451921/NPS2/img_cara_mal.png",
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 42,
@@ -1118,7 +1118,7 @@ const survey3 ={
                       {
                           "id": 36,
                           "nextSurveyQuestionId": 24,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_promedio.png",
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 43,
@@ -1129,7 +1129,7 @@ const survey3 ={
                       {
                           "id": 37,
                           "nextSurveyQuestionId": 24,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_excelente.png",
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 44,
@@ -1140,7 +1140,7 @@ const survey3 ={
                       {
                           "id": 38,
                           "nextSurveyQuestionId": 24,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_bien.png",
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 45,
@@ -1151,7 +1151,7 @@ const survey3 ={
                       {
                           "id": 39,
                           "nextSurveyQuestionId": 24,
-                          "image": null,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572451920/NPS2/img_cara_bien.png",
                           "surveyQuestionId": 22,
                           "viewLabel": false,
                           "optionId": 46,
@@ -1160,8 +1160,8 @@ const survey3 ={
                           "value": "4"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 23,
@@ -1235,8 +1235,8 @@ const survey3 ={
                           "value": "4"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 24,
@@ -1376,8 +1376,8 @@ const survey3 ={
                           "value": "10"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 25,
@@ -1517,8 +1517,8 @@ const survey3 ={
                           "value": "10"
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 26,
@@ -1636,8 +1636,8 @@ const survey3 ={
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 27,
@@ -1678,8 +1678,8 @@ const survey3 ={
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 28,
@@ -1720,8 +1720,8 @@ const survey3 ={
                           "value": null
                       }
                   ],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 29,
@@ -1825,8 +1825,8 @@ const survey3 ={
                   "active": true,
                   "questionStyleId": 8,
                   "surveyQuestionOption": [],
-                  "showTitle": false,
-                  "showButton": false
+                  "showTitle": true,
+                  "showButton": true
               },
               {
                   "id": 31,
@@ -1844,7 +1844,7 @@ const survey3 ={
                   "active": true,
                   "questionStyleId": 10,
                   "surveyQuestionOption": [],
-                  "showTitle": false,
+                  "showTitle": true,
                   "showButton": false
               }
           ]
