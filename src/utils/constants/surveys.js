@@ -470,596 +470,596 @@ const surveys = {
     }
 }
 const survey2 = {
-    "surveys": [
-        {
-            "id": 3,
-            "name": "Encuesta patio de comidas",
-            "description": "Encuesta patio comidas",
-            "type": "STEP",
-            "surveyQuestion": [
-                {
-                    "id": 15,
-                    "questionableType": "QUESTION",
-                    "questionableId": 1,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 1,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Hola",
-                    "description": "Queremos saber tu opinión acerca de tu experiencia en Real Plaza",
-                    "active": false,
-                    "questionStyleId": 1,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 16,
-                    "questionableType": "QUESTION",
-                    "questionableId": 6,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 2,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Por favor califica nuestros servicios",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 3,
-                    "surveyQuestionOption": [
-                        {
-                            "id": 24,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 21,
-                            "required": false,
-                            "label": "0",
-                            "value": "0"
-                        },
-                        {
-                            "id": 25,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 22,
-                            "required": false,
-                            "label": "1",
-                            "value": "1"
-                        },
-                        {
-                            "id": 26,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 23,
-                            "required": false,
-                            "label": "2",
-                            "value": "2"
-                        },
-                        {
-                            "id": 27,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 24,
-                            "required": false,
-                            "label": "3",
-                            "value": "3"
-                        },
-                        {
-                            "id": 28,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 25,
-                            "required": false,
-                            "label": "4",
-                            "value": "4"
-                        },
-                        {
-                            "id": 29,
-                            "nextSurveyQuestionId": 17,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 26,
-                            "required": false,
-                            "label": "5",
-                            "value": "5"
-                        },
-                        {
-                            "id": 30,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 27,
-                            "required": false,
-                            "label": "6",
-                            "value": "6"
-                        },
-                        {
-                            "id": 31,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 28,
-                            "required": false,
-                            "label": "7",
-                            "value": "7"
-                        },
-                        {
-                            "id": 32,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 29,
-                            "required": false,
-                            "label": "8",
-                            "value": "8"
-                        },
-                        {
-                            "id": 33,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 30,
-                            "required": false,
-                            "label": "9",
-                            "value": "9"
-                        },
-                        {
-                            "id": 34,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 16,
-                            "viewLabel": false,
-                            "optionId": 31,
-                            "required": false,
-                            "label": "10",
-                            "value": "10"
-                        }
-                    ],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 17,
-                    "questionableType": "QUESTION",
-                    "questionableId": 7,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 3,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "¡Participa por un kit de la felicidad!",
-                    "description": "Completa tus datos y participa por un kit de la felicidad que Real Plaza tiene para ti.",
-                    "active": false,
-                    "questionStyleId": 14,
-                    "surveyQuestionOption": [
-                        {
-                            "id": 22,
-                            "nextSurveyQuestionId": 20,
-                            "image": null,
-                            "surveyQuestionId": 17,
-                            "viewLabel": false,
-                            "optionId": 40,
-                            "required": false,
-                            "label": "Omitir",
-                            "value": null
-                        },
-                        {
-                            "id": 23,
-                            "nextSurveyQuestionId": 18,
-                            "image": null,
-                            "surveyQuestionId": 17,
-                            "viewLabel": false,
-                            "optionId": 41,
-                            "required": false,
-                            "label": "Participar",
-                            "value": null
-                        }
-                    ],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 18,
-                    "questionableType": "SURVEY",
-                    "questionableId": 2,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 4,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "¿Cómo fue tu experiencia en Real Plaza Puruchuco?",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 4,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 19,
-                    "questionableType": "QUESTION",
-                    "questionableId": 8,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 5,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "¡Tu respuesta ha sido registrada!",
-                    "description": "Tus ideas y sugerencias juegan un rol importante ayudándonos a identificar oportunidades de mejora.",
-                    "active": false,
-                    "questionStyleId": 13,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 20,
-                    "questionableType": "QUESTION",
-                    "questionableId": 9,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 3,
-                    "position": 6,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Tus datos han sido enviados exitosamente ",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 10,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "name": "Formulario interno",
-            "description": "Formulario que irá dentro de la encuesta de baños",
-            "type": "LINEAL",
-            "surveyQuestion": [
-                {
-                    "id": 1,
-                    "questionableType": "QUESTION",
-                    "questionableId": 10,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 1,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Documento:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 15,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 2,
-                    "questionableType": "QUESTION",
-                    "questionableId": 11,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 2,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Tu número de documento es:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 16,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 3,
-                    "questionableType": "QUESTION",
-                    "questionableId": 12,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 3,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Tus nombres son:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 16,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 4,
-                    "questionableType": "QUESTION",
-                    "questionableId": 13,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 4,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Tus apellidos son:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 16,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 5,
-                    "questionableType": "QUESTION",
-                    "questionableId": 14,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 5,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Correo:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 16,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 6,
-                    "questionableType": "QUESTION",
-                    "questionableId": 15,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 6,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Teléfono(opcional):",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 16,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 7,
-                    "questionableType": "QUESTION",
-                    "questionableId": 16,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 7,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Elige tu género:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 15,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 8,
-                    "questionableType": "QUESTION",
-                    "questionableId": 17,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 8,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Fecha de nacimiento:",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 17,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                },
-                {
-                    "id": 9,
-                    "questionableType": "QUESTION",
-                    "questionableId": 18,
-                    "minItemsSelected": 0,
-                    "maxItemsSelected": 0,
-                    "surveyId": 2,
-                    "position": 9,
-                    "backgroundImagePortrait": null,
-                    "backgroundImageLandscape": null,
-                    "mainImage": null,
-                    "name": "Distrito/provincia",
-                    "description": null,
-                    "active": false,
-                    "questionStyleId": 18,
-                    "surveyQuestionOption": [],
-                    "showTitle": false,
-                    "showButton": false
-                }
-            ]
-        }
-    ],
-    "questionTypes": [
-        {
-            "id": 1,
-            "name": "welcome",
-            "description": "Pantalla de bienvenida"
-        },
-        {
-            "id": 2,
-            "name": "unique",
-            "description": "Pregunta de opción única"
-        },
-        {
-            "id": 3,
-            "name": "multiple",
-            "description": "Pregunta de múltiples opciones"
-        },
-        {
-            "id": 4,
-            "name": "thanks",
-            "description": "Pantalla de gracias"
-        },
-        {
-            "id": 5,
-            "name": "input_text",
-            "description": "Pregunta de entrada de texto"
-        },
-        {
-            "id": 6,
-            "name": "status_message",
-            "description": "Pantalla con mensaje de estado"
-        },
-        {
-            "id": 7,
-            "name": "hook",
-            "description": "Pantalla de anzuelo"
-        },
-        {
-            "id": 8,
-            "name": "form",
-            "description": "Formulario"
-        }
-    ],
-    "questionStyles": [
-        {
-            "id": 1,
-            "name": "default",
-            "questionTypeId": 1
-        },
-        {
-            "id": 2,
-            "name": "isn_horizontal",
-            "questionTypeId": 2
-        },
-        {
-            "id": 3,
-            "name": "nps_horizontal",
-            "questionTypeId": 2
-        },
-        {
-            "id": 4,
-            "name": "isn_vertical",
-            "questionTypeId": 2
-        },
-        {
-            "id": 5,
-            "name": "vertical",
-            "questionTypeId": 2
-        },
-        {
-            "id": 6,
-            "name": "nps_vertical",
-            "questionTypeId": 2
-        },
-        {
-            "id": 7,
-            "name": "vertical",
-            "questionTypeId": 3
-        },
-        {
-            "id": 8,
-            "name": "with_button",
-            "questionTypeId": 4
-        },
-        {
-            "id": 9,
-            "name": "without_button",
-            "questionTypeId": 4
-        },
-        {
-            "id": 10,
-            "name": "with_image",
-            "questionTypeId": 4
-        },
-        {
-            "id": 11,
-            "name": "text_multiple",
-            "questionTypeId": 5
-        },
-        {
-            "id": 12,
-            "name": "skip",
-            "questionTypeId": 6
-        },
-        {
-            "id": 13,
-            "name": "show_text",
-            "questionTypeId": 6
-        },
-        {
-            "id": 14,
-            "name": "default",
-            "questionTypeId": 7
-        },
-        {
-            "id": 15,
-            "name": "unique_radio_button",
-            "questionTypeId": 8
-        },
-        {
-            "id": 16,
-            "name": "input_edit_text",
-            "questionTypeId": 8
-        },
-        {
-            "id": 17,
-            "name": "input_date_text",
-            "questionTypeId": 8
-        },
-        {
-            "id": 18,
-            "name": "unique_spinner",
-            "questionTypeId": 8
-        }
-    ],
-    "setting": {
-        "screenIdleTime": 10,
-        "currentAppVersion": 1,
-        "beginSync": 2,
-        "syncInterval": 2,
-        "endSync": 3
-    }
-};
+  "surveys": [
+      {
+          "id": 3,
+          "name": "Encuesta patio de comidas",
+          "description": "Encuesta patio comidas",
+          "type": "STEP",
+          "surveyQuestion": [
+              {
+                  "id": 15,
+                  "questionableType": "QUESTION",
+                  "questionableId": 1,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 1,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Hola",
+                  "description": "Queremos saber tu opinión acerca de tu experiencia en Real Plaza",
+                  "active": true,
+                  "questionStyleId": 1,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 16,
+                  "questionableType": "QUESTION",
+                  "questionableId": 6,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 2,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Por favor califica nuestros servicios",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 3,
+                  "surveyQuestionOption": [
+                      {
+                          "id": 24,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face1.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 21,
+                          "required": true,
+                          "label": "0",
+                          "value": "0"
+                      },
+                      {
+                          "id": 25,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face1.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 22,
+                          "required": true,
+                          "label": "1",
+                          "value": "1"
+                      },
+                      {
+                          "id": 26,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face1.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 23,
+                          "required": true,
+                          "label": "2",
+                          "value": "2"
+                      },
+                      {
+                          "id": 27,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face4.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 24,
+                          "required": true,
+                          "label": "3",
+                          "value": "3"
+                      },
+                      {
+                          "id": 28,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face4.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 25,
+                          "required": true,
+                          "label": "4",
+                          "value": "4"
+                      },
+                      {
+                          "id": 29,
+                          "nextSurveyQuestionId": 17,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face4.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 26,
+                          "required": true,
+                          "label": "5",
+                          "value": "5"
+                      },
+                      {
+                          "id": 30,
+                          "nextSurveyQuestionId": 20,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face3.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 27,
+                          "required": true,
+                          "label": "6",
+                          "value": "6"
+                      },
+                      {
+                          "id": 31,
+                          "nextSurveyQuestionId": 20,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face3.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 28,
+                          "required": true,
+                          "label": "7",
+                          "value": "7"
+                      },
+                      {
+                          "id": 32,
+                          "nextSurveyQuestionId": 20,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901950/NPS2/img_face3.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 29,
+                          "required": true,
+                          "label": "8",
+                          "value": "8"
+                      },
+                      {
+                          "id": 33,
+                          "nextSurveyQuestionId": 20,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901949/NPS2/img_face2.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 30,
+                          "required": true,
+                          "label": "9",
+                          "value": "9"
+                      },
+                      {
+                          "id": 34,
+                          "nextSurveyQuestionId": 20,
+                          "image": "https://res.cloudinary.com/tambo/image/upload/v1572901949/NPS2/img_face2.png",
+                          "surveyQuestionId": 16,
+                          "viewLabel": false,
+                          "optionId": 31,
+                          "required": true,
+                          "label": "10",
+                          "value": "10"
+                      }
+                  ],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 17,
+                  "questionableType": "QUESTION",
+                  "questionableId": 7,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 3,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "¡Participa por un kit de la felicidad!",
+                  "description": "Completa tus datos y participa por un kit de la felicidad que Real Plaza tiene para ti.",
+                  "active": true,
+                  "questionStyleId": 14,
+                  "surveyQuestionOption": [
+                      {
+                          "id": 22,
+                          "nextSurveyQuestionId": 20,
+                          "image": null,
+                          "surveyQuestionId": 17,
+                          "viewLabel": false,
+                          "optionId": 40,
+                          "required": true,
+                          "label": "Omitir",
+                          "value": null
+                      },
+                      {
+                          "id": 23,
+                          "nextSurveyQuestionId": 18,
+                          "image": null,
+                          "surveyQuestionId": 17,
+                          "viewLabel": false,
+                          "optionId": 41,
+                          "required": true,
+                          "label": "Participar",
+                          "value": null
+                      }
+                  ],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 18,
+                  "questionableType": "SURVEY",
+                  "questionableId": 2,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 4,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "¿Cómo fue tu experiencia en Real Plaza Puruchuco?",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 4,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 19,
+                  "questionableType": "QUESTION",
+                  "questionableId": 8,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 5,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "¡Tu respuesta ha sido registrada!",
+                  "description": "Tus ideas y sugerencias juegan un rol importante ayudándonos a identificar oportunidades de mejora.",
+                  "active": true,
+                  "questionStyleId": 13,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 20,
+                  "questionableType": "QUESTION",
+                  "questionableId": 9,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 3,
+                  "position": 6,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Tus datos han sido enviados exitosamente ",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 10,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              }
+          ]
+      },
+      {
+          "id": 2,
+          "name": "Formulario interno",
+          "description": "Formulario que irá dentro de la encuesta de baños",
+          "type": "LINEAL",
+          "surveyQuestion": [
+              {
+                  "id": 1,
+                  "questionableType": "QUESTION",
+                  "questionableId": 10,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 1,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Documento:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 15,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 2,
+                  "questionableType": "QUESTION",
+                  "questionableId": 11,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 2,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Tu número de documento es:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 16,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 3,
+                  "questionableType": "QUESTION",
+                  "questionableId": 12,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 3,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Tus nombres son:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 16,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 4,
+                  "questionableType": "QUESTION",
+                  "questionableId": 13,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 4,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Tus apellidos son:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 16,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 5,
+                  "questionableType": "QUESTION",
+                  "questionableId": 14,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 5,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Correo:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 16,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 6,
+                  "questionableType": "QUESTION",
+                  "questionableId": 15,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 6,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Teléfono(opcional):",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 16,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 7,
+                  "questionableType": "QUESTION",
+                  "questionableId": 16,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 7,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Elige tu género:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 15,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 8,
+                  "questionableType": "QUESTION",
+                  "questionableId": 17,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 8,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Fecha de nacimiento:",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 17,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              },
+              {
+                  "id": 9,
+                  "questionableType": "QUESTION",
+                  "questionableId": 18,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 2,
+                  "position": 9,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Distrito/provincia",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 18,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              }
+          ]
+      }
+  ],
+  "questionTypes": [
+      {
+          "id": 1,
+          "name": "welcome",
+          "description": "Pantalla de bienvenida"
+      },
+      {
+          "id": 2,
+          "name": "unique",
+          "description": "Pregunta de opción única"
+      },
+      {
+          "id": 3,
+          "name": "multiple",
+          "description": "Pregunta de múltiples opciones"
+      },
+      {
+          "id": 4,
+          "name": "thanks",
+          "description": "Pantalla de gracias"
+      },
+      {
+          "id": 5,
+          "name": "input_text",
+          "description": "Pregunta de entrada de texto"
+      },
+      {
+          "id": 6,
+          "name": "status_message",
+          "description": "Pantalla con mensaje de estado"
+      },
+      {
+          "id": 7,
+          "name": "hook",
+          "description": "Pantalla de anzuelo"
+      },
+      {
+          "id": 8,
+          "name": "form",
+          "description": "Formulario"
+      }
+  ],
+  "questionStyles": [
+      {
+          "id": 1,
+          "name": "default",
+          "questionTypeId": 1
+      },
+      {
+          "id": 2,
+          "name": "isn_horizontal",
+          "questionTypeId": 2
+      },
+      {
+          "id": 3,
+          "name": "nps_horizontal",
+          "questionTypeId": 2
+      },
+      {
+          "id": 4,
+          "name": "isn_vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 5,
+          "name": "vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 6,
+          "name": "nps_vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 7,
+          "name": "vertical",
+          "questionTypeId": 3
+      },
+      {
+          "id": 8,
+          "name": "with_button",
+          "questionTypeId": 4
+      },
+      {
+          "id": 9,
+          "name": "without_button",
+          "questionTypeId": 4
+      },
+      {
+          "id": 10,
+          "name": "with_image",
+          "questionTypeId": 4
+      },
+      {
+          "id": 11,
+          "name": "text_multiple",
+          "questionTypeId": 5
+      },
+      {
+          "id": 12,
+          "name": "skip",
+          "questionTypeId": 6
+      },
+      {
+          "id": 13,
+          "name": "show_text",
+          "questionTypeId": 6
+      },
+      {
+          "id": 14,
+          "name": "default",
+          "questionTypeId": 7
+      },
+      {
+          "id": 15,
+          "name": "unique_radio_button",
+          "questionTypeId": 8
+      },
+      {
+          "id": 16,
+          "name": "input_edit_text",
+          "questionTypeId": 8
+      },
+      {
+          "id": 17,
+          "name": "input_date_text",
+          "questionTypeId": 8
+      },
+      {
+          "id": 18,
+          "name": "unique_spinner",
+          "questionTypeId": 8
+      }
+  ],
+  "setting": {
+      "screenIdleTime": 10,
+      "currentAppVersion": 1,
+      "beginSync": 2,
+      "syncInterval": 2,
+      "endSync": 3
+  }
+}
 
 const survey3 = {
   "surveys": [

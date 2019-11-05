@@ -11,7 +11,14 @@ function getSurveys(req, res) {
       return res.json(survey3);
     }
 
-    return res.json(survey2);
+    if (deviceSn === 'sn-32431') {
+      return res.json(surveys);
+    }
+
+    if (deviceSn === 'sn-12234') {
+      return res.json(survey2);
+    }
+
   } catch (error) {
     const errorMessage = handleError(error);
     return res.status(500).json(errorMessage);
