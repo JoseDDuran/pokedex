@@ -759,7 +759,30 @@ const survey2 = {
                   "description": null,
                   "active": true,
                   "questionStyleId": 15,
-                  "surveyQuestionOption": [],
+                  "surveyQuestionOption": [
+                      {
+                          "id": 86,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 1,
+                          "viewLabel": true,
+                          "optionId": 32,
+                          "required": true,
+                          "label": "DNI",
+                          "value": null
+                      },
+                      {
+                          "id": 87,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 1,
+                          "viewLabel": true,
+                          "optionId": 33,
+                          "required": true,
+                          "label": "Carnet Extranjería",
+                          "value": null
+                      }
+                  ],
                   "showTitle": true,
                   "showButton": false
               },
@@ -873,7 +896,52 @@ const survey2 = {
                   "description": null,
                   "active": true,
                   "questionStyleId": 15,
-                  "surveyQuestionOption": [],
+                  "surveyQuestionOption": [
+                      {
+                          "id": 88,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 7,
+                          "viewLabel": true,
+                          "optionId": 34,
+                          "required": true,
+                          "label": "Mujer",
+                          "value": null
+                      },
+                      {
+                          "id": 89,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 7,
+                          "viewLabel": true,
+                          "optionId": 35,
+                          "required": true,
+                          "label": "Hombre",
+                          "value": null
+                      },
+                      {
+                          "id": 90,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 7,
+                          "viewLabel": true,
+                          "optionId": 36,
+                          "required": true,
+                          "label": "Personalizado",
+                          "value": null
+                      },
+                      {
+                          "id": 91,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 7,
+                          "viewLabel": true,
+                          "optionId": 37,
+                          "required": true,
+                          "label": "No precisar",
+                          "value": null
+                      }
+                  ],
                   "showTitle": true,
                   "showButton": false
               },
@@ -911,7 +979,30 @@ const survey2 = {
                   "description": null,
                   "active": true,
                   "questionStyleId": 18,
-                  "surveyQuestionOption": [],
+                  "surveyQuestionOption": [
+                      {
+                          "id": 92,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 9,
+                          "viewLabel": true,
+                          "optionId": 38,
+                          "required": true,
+                          "label": "Lima",
+                          "value": null
+                      },
+                      {
+                          "id": 93,
+                          "nextSurveyQuestionId": 0,
+                          "image": null,
+                          "surveyQuestionId": 9,
+                          "viewLabel": true,
+                          "optionId": 39,
+                          "required": true,
+                          "label": "Otros",
+                          "value": null
+                      }
+                  ],
                   "showTitle": true,
                   "showButton": false
               }
@@ -1054,6 +1145,7 @@ const survey2 = {
   ],
   "setting": {
       "screenIdleTime": 10,
+      "waittingTime": 10,
       "currentAppVersion": 1,
       "beginSync": 2,
       "syncInterval": 2,
