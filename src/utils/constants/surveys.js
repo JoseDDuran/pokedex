@@ -2008,7 +2008,7 @@ const survey4 = {
                   "minItemsSelected": 0,
                   "maxItemsSelected": 0,
                   "surveyId": 5,
-                  "position": 2,
+                  "position": 3,
                   "backgroundImagePortrait": null,
                   "backgroundImageLandscape": null,
                   "mainImage": "https://res.cloudinary.com/tambo/image/upload/v1572929962/NPS2/img_status_message_landscape.png",
@@ -2027,7 +2027,7 @@ const survey4 = {
                   "minItemsSelected": 0,
                   "maxItemsSelected": 0,
                   "surveyId": 5,
-                  "position": 1,
+                  "position": 2,
                   "backgroundImagePortrait": null,
                   "backgroundImageLandscape": null,
                   "mainImage": null,
@@ -2038,6 +2038,25 @@ const survey4 = {
                   "surveyQuestionOption": [],
                   "showTitle": true,
                   "showButton": false
+              },
+              {
+                  "id": 34,
+                  "questionableType": "QUESTION",
+                  "questionableId": 1,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 5,
+                  "position": 1,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Hola",
+                  "description": "Queremos saber tu opinión acerca de tu experiencia en Real Plaza",
+                  "active": true,
+                  "questionStyleId": 1,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": true
               }
           ]
       }
