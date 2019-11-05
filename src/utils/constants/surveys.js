@@ -2034,7 +2034,7 @@ const survey4 = {
                   "name": "Tus datos han sido enviados exitosamente ",
                   "description": null,
                   "active": true,
-                  "questionStyleId": 10,
+                  "questionStyleId": 13,
                   "surveyQuestionOption": [],
                   "showTitle": true,
                   "showButton": false
