@@ -1993,8 +1993,201 @@ const survey3 = {
   }
 }
 
+const survey4 = {
+  "surveys": [
+      {
+          "id": 5,
+          "name": "Encuesta oficinas",
+          "description": "Encuesta oficinas",
+          "type": "STEP",
+          "surveyQuestion": [
+              {
+                  "id": 32,
+                  "questionableType": "QUESTION",
+                  "questionableId": 23,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 5,
+                  "position": 2,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": "https://res.cloudinary.com/tambo/image/upload/v1572929962/NPS2/img_status_message_landscape.png",
+                  "name": "Vuelve pronto y recuerda",
+                  "description": "Estás aquí para ser feliz",
+                  "active": true,
+                  "questionStyleId": 12,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": true
+              },
+              {
+                  "id": 33,
+                  "questionableType": "QUESTION",
+                  "questionableId": 9,
+                  "minItemsSelected": 0,
+                  "maxItemsSelected": 0,
+                  "surveyId": 5,
+                  "position": 1,
+                  "backgroundImagePortrait": null,
+                  "backgroundImageLandscape": null,
+                  "mainImage": null,
+                  "name": "Tus datos han sido enviados exitosamente ",
+                  "description": null,
+                  "active": true,
+                  "questionStyleId": 10,
+                  "surveyQuestionOption": [],
+                  "showTitle": true,
+                  "showButton": false
+              }
+          ]
+      }
+  ],
+  "questionTypes": [
+      {
+          "id": 1,
+          "name": "welcome",
+          "description": "Pantalla de bienvenida"
+      },
+      {
+          "id": 2,
+          "name": "unique",
+          "description": "Pregunta de opción única"
+      },
+      {
+          "id": 3,
+          "name": "multiple",
+          "description": "Pregunta de múltiples opciones"
+      },
+      {
+          "id": 4,
+          "name": "thanks",
+          "description": "Pantalla de gracias"
+      },
+      {
+          "id": 5,
+          "name": "input_text",
+          "description": "Pregunta de entrada de texto"
+      },
+      {
+          "id": 6,
+          "name": "status_message",
+          "description": "Pantalla con mensaje de estado"
+      },
+      {
+          "id": 7,
+          "name": "hook",
+          "description": "Pantalla de anzuelo"
+      },
+      {
+          "id": 8,
+          "name": "form",
+          "description": "Formulario"
+      }
+  ],
+  "questionStyles": [
+      {
+          "id": 1,
+          "name": "default",
+          "questionTypeId": 1
+      },
+      {
+          "id": 2,
+          "name": "isn_horizontal",
+          "questionTypeId": 2
+      },
+      {
+          "id": 3,
+          "name": "nps_horizontal",
+          "questionTypeId": 2
+      },
+      {
+          "id": 4,
+          "name": "isn_vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 5,
+          "name": "vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 6,
+          "name": "nps_vertical",
+          "questionTypeId": 2
+      },
+      {
+          "id": 7,
+          "name": "vertical",
+          "questionTypeId": 3
+      },
+      {
+          "id": 8,
+          "name": "with_button",
+          "questionTypeId": 4
+      },
+      {
+          "id": 9,
+          "name": "without_button",
+          "questionTypeId": 4
+      },
+      {
+          "id": 10,
+          "name": "with_image",
+          "questionTypeId": 4
+      },
+      {
+          "id": 11,
+          "name": "text_multiple",
+          "questionTypeId": 5
+      },
+      {
+          "id": 12,
+          "name": "skip",
+          "questionTypeId": 6
+      },
+      {
+          "id": 13,
+          "name": "show_text",
+          "questionTypeId": 6
+      },
+      {
+          "id": 14,
+          "name": "default",
+          "questionTypeId": 7
+      },
+      {
+          "id": 15,
+          "name": "unique_radio_button",
+          "questionTypeId": 8
+      },
+      {
+          "id": 16,
+          "name": "input_edit_text",
+          "questionTypeId": 8
+      },
+      {
+          "id": 17,
+          "name": "input_date_text",
+          "questionTypeId": 8
+      },
+      {
+          "id": 18,
+          "name": "unique_spinner",
+          "questionTypeId": 8
+      }
+  ],
+  "setting": {
+      "screenIdleTime": 10,
+      "currentAppVersion": 12,
+      "beginSync": 2,
+      "syncInterval": 2,
+      "endSync": 3
+  }
+}
+
 module.exports = {
   surveys,
   survey2,
   survey3,
+  survey4,
 };
