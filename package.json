@@ -18,7 +18,7 @@
     "db:init": "knex migrate:rollback && knex migrate:latest && knex seed:run"
   },
   "dependencies": {
-    "aws-sdk": "^2.471.0",
+    "aws-sdk": "^2.814.0",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "dotenv": "^6.2.0",
